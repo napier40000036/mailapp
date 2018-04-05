@@ -3,9 +3,20 @@
     <head>
     	<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
     	<script src='/static/mail.js'></script>
+    	<style>
+    	#mail-list, #mail-body{
+    		width:45%;
+    		border:solid thick black;
+    		display: inline-block;
+    	}
+	    </style>
   	</head>
   	<body>
+  		<button id='refresh'>Refresh</button>
+  	<div>
   		<div id='mail-list'></div>
   		<div id='mail-body'></div>
+  	</div>
   	</body>
 </html>
+
